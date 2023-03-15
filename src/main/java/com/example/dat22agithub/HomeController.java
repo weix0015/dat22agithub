@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 
     @GetMapping("/")
-    public String index() {
+    public String helloWorld() {
         return "Hello World<br>你好地球<br>こんにちは世界";
     }
 
