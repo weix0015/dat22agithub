@@ -8,7 +8,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String index() {
-        return "Hello World\n你好地球\nこんにちは世界";
+        return "Hello World<br>你好地球<br>こんにちは世界";
     }
 
     // comment about code
